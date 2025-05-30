@@ -1,0 +1,78 @@
+body{
+    font-family:serif;
+    
+}
+main{
+    display: flex;
+    height: 500px;
+
+
+}
+header,footer{
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: right;
+   
+}
+
+#prawy,#lewy{
+    background-color: Lavender;
+    height: 500px;
+}
+
+#prawy{
+    width: 35%;
+}
+
+#lewy{
+    width: 25%;
+}
+
+#srodek{
+    background-color: GhostWhite;
+    text-align: center;
+    height: 500px;
+    width: 40%;
+}
+
+
+img{
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+table,th,td,tr{
+    border-collapse: collapse;
+
+    border: solid 1px black;
+}
+
+table, .formularz{
+    margin: 30px;
+}
+
+
+#prawy,#lewy,#srodek{
+    float: left;
+}
+
+
+a{ color: white;
+    font-size: 150%;
+    font-style: italic;}
+
+
+footer{
+    clear: both;
+}
+
+
+
